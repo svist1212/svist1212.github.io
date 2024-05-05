@@ -1,0 +1,41 @@
+.footer {
+  background: var(--hed-foot-bg);
+
+}
+
+.container {}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+}
+
+.footer__logo {
+  align-items: center;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 38px;
+
+}
+
+.footer__item {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__link {
+  display: block;
+  padding: 10px 10px;
+  border-radius: 20px;
+  transition: var(--transition);
+}
+
+.footer__link:hover {
+  background: #ffd900b9;
+}

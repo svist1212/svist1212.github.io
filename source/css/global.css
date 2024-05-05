@@ -1,0 +1,68 @@
+:root {
+  --general-text: #242020;
+  --general-bg: #f7e29e2e;
+  --hed-foot-bg: #fbe29278;
+  --transition: all .4s;
+}
+
+
+
+
+body {
+  font-family: "Montserrat", "Arial", sans-serif;
+  line-height: 1.5;
+  color: var(--general-text);
+  font-size: 18px;
+  background: var(--general-bg);
+
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+
+}
+
+
+
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100%;
+}
+.title {
+  font-family: 'Gabriola';
+  font-size: 74px;
+  line-height: 0.82;
+  color: var(--general-text);
+}
+.title-2 {
+  font-family: 'Gabriola';
+  font-size: 50px;
+  line-height: 0.82;
+  color: var(--general-text);
+  font-weight: 500;
+}
+.title-6 {
+  font-family: 'Gabriola';
+  font-size: 38px;
+  line-height: 0.82;
+  color: var(--general-text);
+  font-weight: 500;
+}
+
+.create-line {
+  width: 100%;
+  border-top: 3px solid var(--general-text);
+  margin-bottom: 20px;
+}
